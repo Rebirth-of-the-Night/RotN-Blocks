@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "rotn_blocks:blocks/moss",
+    "particle": "rotn_blocks:blocks/moss"
+  }
+}

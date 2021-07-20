@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rotn_blocks:blocks/charcoal_pile_top",
+    "up": "rotn_blocks:blocks/charcoal_pile_top",
+    "north": "rotn_blocks:blocks/charcoal_pile",
+    "east": "rotn_blocks:blocks/charcoal_pile",
+    "south": "rotn_blocks:blocks/charcoal_pile",
+    "west": "rotn_blocks:blocks/charcoal_pile",
+    "particle": "rotn_blocks:blocks/charcoal_pile_top"
+  }
+}

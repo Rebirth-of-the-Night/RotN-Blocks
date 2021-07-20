@@ -1,0 +1,461 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "CopperBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_block"
+    },
+    {
+      "name": "SlightlyWeatheredCopperBlock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slightly_weathered_copper_block"
+    },
+    {
+      "name": "SemiWheateredCopperBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "semi_wheatered_copper_block"
+    },
+    {
+      "name": "WeatheredCopperBlock",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weathered_copper_block"
+    },
+    {
+      "name": "CopperBlockUpdateTick",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_block_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SlightlyWeatheredCopperBlockUpdateTick",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slightly_weathered_copper_block_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SemiWheateredCopperBlockUpdateTick",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "semi_wheatered_copper_block_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CaveMoss",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cave_moss"
+    },
+    {
+      "name": "WonderGeode",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wonder_geode"
+    },
+    {
+      "name": "CharredLogPile",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charred_log_pile"
+    },
+    {
+      "name": "Stalactite0",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "stalactite_0"
+    },
+    {
+      "name": "Stalactite1",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "stalactite_1"
+    },
+    {
+      "name": "Stalactite3",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "stalactite_3"
+    },
+    {
+      "name": "Verribyne0",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "verribyne_0"
+    },
+    {
+      "name": "Verribyne1",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "verribyne_1"
+    },
+    {
+      "name": "UnsuportedBlockAbove",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unsuported_block_above",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Verribyne1Transformer",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "verribyne_1_transformer",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Verribyne0Transformer",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "verribyne_0_transformer",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MushroomLamp0",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mushroom_lamp_0"
+    },
+    {
+      "name": "MushroomLamp1",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mushroom_lamp_1"
+    },
+    {
+      "name": "MushroomLamp1RedstoneOff",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mushroom_lamp_1_redstone_off",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MushroomLamp0RedstoneOn",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mushroom_lamp_0_redstone_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ScuttlingBlock",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "scuttling_block"
+    },
+    {
+      "name": "ExoriteCrystal",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "exorite_crystal"
+    },
+    {
+      "name": "SerpentiniteStairs",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "serpentinite_stairs"
+    },
+    {
+      "name": "SerprentiniteStone",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "serprentinite_stone"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "tile.verribyne_0.name": "Verribyne",
+      "block.rotn_blocks.verribyne_1": "Verribyne",
+      "block.rotn_blocks.verribyne_0": "Verribyne",
+      "block.rotn_blocks.weathered_copper_block": "Weathered Copper Block",
+      "block.rotn_blocks.slightly_weathered_copper_block": "Slightly Weathered Copper Block",
+      "block.rotn_blocks.scuttling_block": "Scuttling Block",
+      "block.rotn_blocks.charred_log_pile": "Charred Log Pile",
+      "tile.stalactite_1.name": "Stalactite",
+      "tile.copper_block.name": "Copper Block",
+      "block.rotn_blocks.serprentinite_stone": "Serprentinite Stone",
+      "tile.weathered_copper_block.name": "Weathered Copper Block",
+      "tile.slightly_weathered_copper_block.name": "Slightly Weathered Copper Block",
+      "block.rotn_blocks.wonder_geode": "Wonder Geode",
+      "tile.scuttling_block.name": "Scuttling Block",
+      "block.rotn_blocks.copper_block": "Copper Block",
+      "tile.semi_wheatered_copper_block.name": "Semi-Weathered Copper Block",
+      "tile.wonder_geode.name": "Wonder Geode",
+      "tile.exorite_crystal.name": "Exorite Crystal",
+      "block.rotn_blocks.cave_moss": "Cave Moss",
+      "tile.cave_moss.name": "Cave Moss",
+      "block.rotn_blocks.serpentinite_stairs": "Serpentinite Stairs",
+      "tile.verribyne_1.name": "Verribyne",
+      "block.rotn_blocks.mushroom_lamp_1": "Mushroom Lamp On",
+      "tile.serprentinite_stone.name": "Serprentinite Stone",
+      "tile.mushroom_lamp_0.name": "Mushroom Lamp Off",
+      "block.rotn_blocks.mushroom_lamp_0": "Mushroom Lamp Off",
+      "tile.mushroom_lamp_1.name": "Mushroom Lamp On",
+      "tile.charred_log_pile.name": "Charred Log Pile",
+      "tile.stalactite_0.name": "Stalactite",
+      "tile.stalactite_3.name": "Stalactite",
+      "block.rotn_blocks.semi_wheatered_copper_block": "Semi-Weathered Copper Block",
+      "tile.serpentinite_stairs.name": "Serpentinite Stairs"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "rotn_blocks",
+    "modName": "RotN Blocks",
+    "version": "1.0.0",
+    "description": "Mod made with MCreator for use in the modpack Rebirth of the Night, just adds blocks that couldn\u0027t be added without a custom mod.",
+    "author": "Foreck, MCreator",
+    "websiteURL": "https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "rotnblocks",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.rotnblocks",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

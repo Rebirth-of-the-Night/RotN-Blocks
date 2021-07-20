@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "rotn_blocks:block/charred_log_pile"
+    },
+    "facing=north": {
+      "model": "rotn_blocks:block/charred_log_pile"
+    },
+    "facing=east": {
+      "model": "rotn_blocks:block/charred_log_pile",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "rotn_blocks:block/charred_log_pile",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "rotn_blocks:block/charred_log_pile",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "rotn_blocks:block/charred_log_pile",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

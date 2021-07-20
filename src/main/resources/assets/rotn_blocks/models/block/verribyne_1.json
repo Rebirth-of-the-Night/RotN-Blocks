@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "rotn_blocks:blocks/cave_ravine_end",
+    "particle": "rotn_blocks:blocks/cave_ravine_end"
+  }
+}

@@ -1,0 +1,46 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "Desktop:blocks/stalactite0",
+		"1": "Desktop:blocks/stalactite_base"
+	},
+	"elements": [
+		{
+			"from": [0, 11, 0],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 23, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 5], "texture": "#0"},
+				"east": {"uv": [16, 0, 0, 5], "texture": "#0"},
+				"south": {"uv": [16, 0, 0, 5], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 5], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		},
+		{
+			"from": [1, 9, 0],
+			"to": [16, 11, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [23, 18, 8]},
+			"faces": {
+				"north": {"uv": [0, 5, 15, 7], "texture": "#0"},
+				"east": {"uv": [15, 5, 0, 7], "texture": "#0"},
+				"south": {"uv": [15, 5, 0, 7], "texture": "#0"},
+				"west": {"uv": [0, 5, 15, 7], "texture": "#0"},
+				"down": {"uv": [0, 0, 15, 15], "texture": "#1"}
+			}
+		},
+		{
+			"from": [1, 0, 1],
+			"to": [15, 9, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [23, 17, 8]},
+			"faces": {
+				"north": {"uv": [1, 7, 15, 16], "texture": "#0"},
+				"east": {"uv": [15, 7, 1, 16], "texture": "#0"},
+				"south": {"uv": [15, 7, 1, 16], "texture": "#0"},
+				"west": {"uv": [1, 7, 15, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 14, 14], "texture": "#1"}
+			}
+		}
+	]
+}

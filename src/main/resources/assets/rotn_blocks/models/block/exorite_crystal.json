@@ -1,0 +1,8 @@
+{
+  "parent": "rotn_blocks:custom/exorite",
+  "textures": {
+    "all": "rotn_blocks:blocks/exorite",
+    "particle": "rotn_blocks:blocks/exorite",
+    "0": "rotn_blocks:blocks/exorite"
+  }
+}

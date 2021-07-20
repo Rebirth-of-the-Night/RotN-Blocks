@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "rotn_blocks:block/scuttling_block"
+    }
+  }
+}

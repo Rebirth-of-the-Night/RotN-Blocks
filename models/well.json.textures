@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "well",
+        "2": "well_rope"
+      },
+      "name": "default"
+    }
+  }
+}

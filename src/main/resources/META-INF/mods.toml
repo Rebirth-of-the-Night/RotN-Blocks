@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="Not specified"
+
+[[mods]]
+modId="rotn_blocks"
+version="1.0.0"
+displayName="RotN Blocks"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night"
+logoFile="logo.png"
+authors="Foreck, MCreator"
+description='''
+Mod made with MCreator for use in the modpack Rebirth of the Night, just adds blocks that couldn't be added without a custom mod.
+'''
+
+[[dependencies.rotn_blocks]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

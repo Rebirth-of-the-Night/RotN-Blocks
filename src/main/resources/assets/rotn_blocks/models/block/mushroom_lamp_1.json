@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "rotn_blocks:blocks/mushroom_lamp_on",
+    "particle": "rotn_blocks:blocks/mushroom_lamp_on"
+  }
+}

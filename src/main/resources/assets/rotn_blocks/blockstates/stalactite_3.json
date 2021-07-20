@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "rotn_blocks:stalactite_3"
+    },
+    "facing=north": {
+      "model": "rotn_blocks:stalactite_3"
+    },
+    "facing=east": {
+      "model": "rotn_blocks:stalactite_3",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "rotn_blocks:stalactite_3",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "rotn_blocks:stalactite_3",
+      "y": 270
+    }
+  }
+}

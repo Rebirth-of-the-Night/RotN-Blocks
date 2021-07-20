@@ -1,0 +1,58 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "undergroundbiomes:blocks/limestone",
+		"1": "caves_and_cliffs:blocks/stalagmites_3",
+		"particle": "undergroundbiomes:blocks/limestone"
+	},
+	"elements": [
+		{
+			"from": [5, 12, 5],
+			"to": [11, 16, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [13, 23, 13]},
+			"faces": {
+				"north": {"uv": [5.016, 0.016, 10.984, 3.984], "texture": "#1"},
+				"east": {"uv": [5.016, 0.016, 10.984, 3.984], "texture": "#1"},
+				"south": {"uv": [5.016, 0.016, 10.984, 3.984], "texture": "#1"},
+				"west": {"uv": [5.016, 0.016, 10.984, 3.984], "texture": "#1"},
+				"down": {"uv": [0.016, 0.016, 5.984, 5.984], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6, 8, 6],
+			"to": [10, 12, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [14, 19, 14]},
+			"faces": {
+				"north": {"uv": [6.016, 4.016, 9.984, 7.984], "texture": "#1"},
+				"east": {"uv": [6.016, 4.016, 9.984, 7.984], "texture": "#1"},
+				"south": {"uv": [6.016, 4.016, 9.984, 7.984], "texture": "#1"},
+				"west": {"uv": [6.016, 4.016, 9.984, 7.984], "texture": "#1"},
+				"down": {"uv": [0.016, 0.016, 3.984, 3.984], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 5, 7],
+			"to": [10, 8, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [15, 15, 15]},
+			"faces": {
+				"north": {"uv": [6.016, 8.016, 8.984, 10.984], "texture": "#1"},
+				"east": {"uv": [6.016, 8.016, 8.984, 10.984], "texture": "#1"},
+				"south": {"uv": [6.016, 8.016, 8.984, 10.984], "texture": "#1"},
+				"west": {"uv": [6.016, 8.016, 8.984, 10.984], "texture": "#1"},
+				"down": {"uv": [0.016, 0.016, 2.984, 2.984], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 4, 8],
+			"to": [9, 5, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [15, 12, 17]},
+			"faces": {
+				"north": {"uv": [7.016, 11.016, 8.984, 11.984], "texture": "#1"},
+				"east": {"uv": [7.016, 11.016, 8.984, 11.984], "texture": "#1"},
+				"south": {"uv": [7.016, 11.016, 8.984, 11.984], "texture": "#1"},
+				"west": {"uv": [7.016, 11.016, 8.984, 11.984], "texture": "#1"},
+				"down": {"uv": [0.016, 0.016, 1.984, 1.984], "texture": "#0"}
+			}
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "rotn_blocks:exorite_crystal"
+    },
+    "facing=north": {
+      "model": "rotn_blocks:exorite_crystal"
+    },
+    "facing=east": {
+      "model": "rotn_blocks:exorite_crystal",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "rotn_blocks:exorite_crystal",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "rotn_blocks:exorite_crystal",
+      "y": 270
+    }
+  }
+}

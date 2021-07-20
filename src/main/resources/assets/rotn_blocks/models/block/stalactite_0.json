@@ -1,0 +1,9 @@
+{
+  "parent": "rotn_blocks:custom/stalactite0",
+  "textures": {
+    "all": "rotn_blocks:blocks/stalactite0",
+    "particle": "rotn_blocks:blocks/stalactite0",
+    "0": "rotn_blocks:blocks/stalactite0",
+    "1": "rotn_blocks:blocks/stalactite_base"
+  }
+}

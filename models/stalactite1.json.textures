@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "stalactite1",
+        "1": "stalactite_base"
+      },
+      "name": "default"
+    }
+  }
+}
